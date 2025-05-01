@@ -6,7 +6,7 @@ This is a non-working snippet which comments the entire PT2 XGBoost trader imple
 # XGB_model_train_new_feat_syn.py
 This script trains the XGBoost Model - optimising hyperparameters and training on 2 years of synthetic BTC/USD data.
 # btc_usd_5min_30day_BSE.csv
-This is teh historical BTC/USD data which is used to create the live time series within BSE.
+This is the historical BTC/USD data which is used to create the live time series within BSE.
 # synthetic_btc_2year.csv
 This is the synthetic BTC/USD data that was created using the Jump Diffusion model for training.
 # synthetic_training_data.py
