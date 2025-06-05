@@ -2718,7 +2718,7 @@ def customer_orders(time, traders, trader_stats, orders_sched, pending, vrbs):
             then generated uniform-randomly from that range.
             if len(range)==2, interpreted as min and max values on the schedule, specifying linear supply/demand curve.
             if len(range)==3, first two vals are min & max for linear sup/dem curves, and third value should be a
-            callable function that generates a dynamic price offset; he offset value applies equally to the min & max,
+            callable function that generates a dynamic price offset; the offset value applies equally to the min & max,
             so gradient of linear sup/dem curves doesn't vary, but equilibrium price does.
             if len(range)==4, the third value is function that gives dynamic offset for schedule min, and 4th is a
             function giving dynamic offset for schedule max, so gradient of sup/dem linear curve can vary dynamically
